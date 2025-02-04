@@ -1,0 +1,12 @@
+{
+    "prefix": "[{LIME}SWIFTLY{DEFAULT}]",
+    "maplist": {
+        "de_dust2": "Dust II",
+        "de_mirage": "Mirage",
+        "de_train": "Train",
+        "de_nuke": "Nuke",
+        "de_overpass": "Overpass"
+    },
+    "VoteAfterRound": 7,
+    "color": "00b869"
+}

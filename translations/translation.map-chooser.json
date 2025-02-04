@@ -1,0 +1,38 @@
+{
+    "votemap": {
+        "en": "Vote for a new map!",
+        "ro": "Votează pentru o hartă!"
+    },
+    "alreadyvoted": {
+        "en": "You have already voted for the map!",
+        "ro": "Ai votat deja pentru hartă!"
+    },
+    "cannotvote": {
+        "en": "You cannot vote yet.",
+        "ro": "Nu poți vota încă."
+    },
+    "voted": {
+        "en": "You have voted for {GREEN}{MAP}{DEFAULT}.",
+        "ro": "Ai votat pentru {GREEN}{MAP}{DEFAULT}."
+    },
+    "checkconsole": {
+        "en": "Check the console for the next map.",
+        "ro": "Verifică consola pentru următoarea hartă."
+    },
+    "alreadyrtv": {
+        "en": "You can't change the vote again in the same match.",
+        "ro": "Nu poți schimba votul din nou în același meci."
+    },
+    "rtv": {
+        "en": "Rock the vote! {GREEN}{COUNT}/{REQUIRED}{DEFAULT} voted to change the vote.",
+        "ro": "Schimbă votul! {GREEN}{COUNT}/{REQUIRED}{DEFAULT} au votat pentru a schimba votul."
+    },
+    "mapwon": {
+        "en": "The map {GREEN}{MAP_NAME}{DEFAULT} won with {GREEN}{VOTES} votes ({PRECENTAGE}%){DEFAULT}!",
+        "ro": "Harta {GREEN}{MAP_NAME}{DEFAULT} a câștigat cu {GREEN}{VOTES} voturi ({PRECENTAGE}%){DEFAULT}!"
+    },
+    "vote_title": {
+        "en": "Time to vote for a new map!",
+        "ro": "Timpul să votezi o hartă!"
+    }
+}
