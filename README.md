@@ -30,6 +30,12 @@
 
 - After installing the plugin, you should change the default prefix from `addons/swiftly/configs/plugins/map-chooser.json`(optional)
 - You can change the rounds left to vote and the maps from the config: `addons/swiftly/configs/plugins/map-chooser.json`
+- For adding a workshop map, you will need the workshop map id and the name of the map. This is an example of how it should be setup in the config.
+```
+    "maplist": {
+        "3124567099": "Inferno Night",
+    }
+```
 
 ### Creating A Pull Request 😃
 
