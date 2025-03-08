@@ -14,6 +14,7 @@ end)
 
 AddEventHandler("OnRoundPrestart", function (event)
     local gamerules = GetCCSGameRules()
+    if not gamerules:IsValid() then return end
     if gamerules.TotalRoundsPlayed == config:Fetch("map-chooser.VoteAfterRound") then
         wasVote = true
         StartPlayersVote()
