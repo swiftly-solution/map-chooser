@@ -1,9 +1,9 @@
 function GetPluginAuthor()
-    return "SwiftlyCS2 Development"
+    return "SwiftlyS2 Development"
 end
 
 function GetPluginVersion()
-    return "1.0.1"
+    return "1.0.2"
 end
 
 function GetPluginName()
