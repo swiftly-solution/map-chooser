@@ -2,11 +2,9 @@
 function StartVote(player)
     isvoteactive = true
     player:ShowMenu("chooser_menu")
-    for i = 1, playermanager:GetPlayerCap() do
-        ReplyToCommand(i-1, config:Fetch("map-chooser.prefix"), FetchTranslation("map-chooser.votemap"))
-        ReplyToCommand(i-1, config:Fetch("map-chooser.prefix"), FetchTranslation("map-chooser.votemap"))
-        ReplyToCommand(i-1, config:Fetch("map-chooser.prefix"), FetchTranslation("map-chooser.votemap"))
-    end
+    ReplyToCommand(player:GetSlot(), config:Fetch("map-chooser.prefix"), FetchTranslation("map-chooser.votemap"))
+    ReplyToCommand(player:GetSlot(), config:Fetch("map-chooser.prefix"), FetchTranslation("map-chooser.votemap"))
+    ReplyToCommand(player:GetSlot(), config:Fetch("map-chooser.prefix"), FetchTranslation("map-chooser.votemap"))
 
     SetTimeout(10000, function ()
         player:HideMenu()
